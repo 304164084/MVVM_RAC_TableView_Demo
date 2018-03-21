@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A43BE7B2060A43000ADDD31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A43BE7A2060A43000ADDD31 /* Assets.xcassets */; };
+		5A43BE7E2060A43000ADDD31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A43BE7C2060A43000ADDD31 /* LaunchScreen.storyboard */; };
+		5A43BE8B2060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A43BE8A2060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.m */; };
+		5A43BE9F2060A55500ADDD31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A43BE9D2060A55500ADDD31 /* AppDelegate.m */; };
+		5A43BEA02060A55500ADDD31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A43BE9E2060A55500ADDD31 /* main.m */; };
+		5A43BEA32060A58600ADDD31 /* BSGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A43BEA22060A58600ADDD31 /* BSGoodsViewController.m */; };
+		5A64FAF42060D764009A1D14 /* BSGoodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FAF32060D764009A1D14 /* BSGoodsViewModel.m */; };
+		5A64FAFC2060E951009A1D14 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FAF92060E950009A1D14 /* BSNavigationController.m */; };
+		5A64FAFD2060E951009A1D14 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FAFB2060E950009A1D14 /* BSViewController.m */; };
+		5A64FB012060E95E009A1D14 /* BSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FB002060E95E009A1D14 /* BSViewModel.m */; };
+		5A64FB062060EE4D009A1D14 /* CategoryAllGoods in Resources */ = {isa = PBXBuildFile; fileRef = 5A64FB052060EE4D009A1D14 /* CategoryAllGoods */; };
+		5A64FB092060F1D3009A1D14 /* BSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FB082060F1D3009A1D14 /* BSModel.m */; };
+		5A64FB0C2060F24C009A1D14 /* BSGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FB0B2060F24C009A1D14 /* BSGoodsModel.m */; };
+		5A64FB0F2060FD0E009A1D14 /* BSGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FB0E2060FD0E009A1D14 /* BSGoodsCell.m */; };
+		5A64FB1220610042009A1D14 /* BSGoodsCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64FB1120610042009A1D14 /* BSGoodsCellViewModel.m */; };
+		5A7634F22061EA1D00297609 /* BSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7634F12061EA1D00297609 /* BSTableViewModel.m */; };
+		5A7634F52062035A00297609 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A7634F42062035A00297609 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A43BE872060A43000ADDD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A43BE662060A43000ADDD31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A43BE6D2060A43000ADDD31;
+			remoteInfo = MVVM_ShoppingCar_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A43BE6E2060A43000ADDD31 /* MVVM_RAC_TableView_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_RAC_TableView_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A43BE7A2060A43000ADDD31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A43BE7D2060A43000ADDD31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A43BE862060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_RAC_TableView_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A43BE8A2060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_RAC_TableView_DemoTests.m; sourceTree = "<group>"; };
+		5A43BE8C2060A43000ADDD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A43BE9C2060A55500ADDD31 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A43BE9D2060A55500ADDD31 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A43BE9E2060A55500ADDD31 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A43BEA12060A58600ADDD31 /* BSGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGoodsViewController.h; sourceTree = "<group>"; };
+		5A43BEA22060A58600ADDD31 /* BSGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSGoodsViewController.m; sourceTree = "<group>"; };
+		5A43BEA42060A88E00ADDD31 /* GlobalMacro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.pch; sourceTree = "<group>"; };
+		5A64FAF22060D764009A1D14 /* BSGoodsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGoodsViewModel.h; sourceTree = "<group>"; };
+		5A64FAF32060D764009A1D14 /* BSGoodsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSGoodsViewModel.m; sourceTree = "<group>"; };
+		5A64FAF82060E950009A1D14 /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
+		5A64FAF92060E950009A1D14 /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
+		5A64FAFA2060E950009A1D14 /* BSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		5A64FAFB2060E950009A1D14 /* BSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		5A64FAFF2060E95E009A1D14 /* BSViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewModel.h; sourceTree = "<group>"; };
+		5A64FB002060E95E009A1D14 /* BSViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewModel.m; sourceTree = "<group>"; };
+		5A64FB052060EE4D009A1D14 /* CategoryAllGoods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CategoryAllGoods; sourceTree = "<group>"; };
+		5A64FB072060F1D3009A1D14 /* BSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSModel.h; sourceTree = "<group>"; };
+		5A64FB082060F1D3009A1D14 /* BSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSModel.m; sourceTree = "<group>"; };
+		5A64FB0A2060F24C009A1D14 /* BSGoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGoodsModel.h; sourceTree = "<group>"; };
+		5A64FB0B2060F24C009A1D14 /* BSGoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSGoodsModel.m; sourceTree = "<group>"; };
+		5A64FB0D2060FD0E009A1D14 /* BSGoodsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGoodsCell.h; sourceTree = "<group>"; };
+		5A64FB0E2060FD0E009A1D14 /* BSGoodsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSGoodsCell.m; sourceTree = "<group>"; };
+		5A64FB1020610042009A1D14 /* BSGoodsCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGoodsCellViewModel.h; sourceTree = "<group>"; };
+		5A64FB1120610042009A1D14 /* BSGoodsCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSGoodsCellViewModel.m; sourceTree = "<group>"; };
+		5A7634F02061EA1D00297609 /* BSTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSTableViewModel.h; sourceTree = "<group>"; };
+		5A7634F12061EA1D00297609 /* BSTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTableViewModel.m; sourceTree = "<group>"; };
+		5A7634F32062003000297609 /* BSViewModelServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewModelServices.h; sourceTree = "<group>"; };
+		5A7634F42062035A00297609 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MVVM_RAC_TableView_Demo/Info.plist; sourceTree = SOURCE_ROOT; };
+		6E36CC4128B80FE0D585E204 /* Pods-MVVM_RAC_TableView_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_RAC_TableView_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_RAC_TableView_Demo/Pods-MVVM_RAC_TableView_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED5A1CB886F1456033327AE /* Pods-MVVM_RAC_TableView_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_RAC_TableView_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_RAC_TableView_Demo/Pods-MVVM_RAC_TableView_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A43BE6B2060A43000ADDD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43BE832060A43000ADDD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A43BE652060A43000ADDD31 = {
+			isa = PBXGroup;
+			children = (
+				5A43BE702060A43000ADDD31 /* MVVM_RAC_TableView_Demo */,
+				5A43BE892060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests */,
+				5A43BE6F2060A43000ADDD31 /* Products */,
+				C722B66D72494A8E096F1B78 /* Pods */,
+				B93431F304DDA9440DC4C2BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A43BE6F2060A43000ADDD31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A43BE6E2060A43000ADDD31 /* MVVM_RAC_TableView_Demo.app */,
+				5A43BE862060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A43BE702060A43000ADDD31 /* MVVM_RAC_TableView_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FB042060EE45009A1D14 /* Resources */,
+				5A43BE9B2060A55500ADDD31 /* Others */,
+				5A43BE9A2060A52B00ADDD31 /* Category */,
+				5A43BE952060A52B00ADDD31 /* ShoppingCar */,
+				5A43BE7A2060A43000ADDD31 /* Assets.xcassets */,
+				5A43BE7C2060A43000ADDD31 /* LaunchScreen.storyboard */,
+			);
+			path = MVVM_RAC_TableView_Demo;
+			sourceTree = "<group>";
+		};
+		5A43BE892060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A43BE8A2060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.m */,
+				5A43BE8C2060A43000ADDD31 /* Info.plist */,
+			);
+			path = MVVM_RAC_TableView_DemoTests;
+			sourceTree = "<group>";
+		};
+		5A43BE952060A52B00ADDD31 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				5A43BE962060A52B00ADDD31 /* Controller */,
+				5A43BE972060A52B00ADDD31 /* Model */,
+				5A43BE982060A52B00ADDD31 /* View */,
+				5A43BE992060A52B00ADDD31 /* ViewModel */,
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		5A43BE962060A52B00ADDD31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FAF72060E950009A1D14 /* BaseClass */,
+				5A43BEA12060A58600ADDD31 /* BSGoodsViewController.h */,
+				5A43BEA22060A58600ADDD31 /* BSGoodsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A43BE972060A52B00ADDD31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FB032060E96C009A1D14 /* BaseClass */,
+				5A64FB0A2060F24C009A1D14 /* BSGoodsModel.h */,
+				5A64FB0B2060F24C009A1D14 /* BSGoodsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A43BE982060A52B00ADDD31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FB022060E965009A1D14 /* BaseClass */,
+				5A64FB0D2060FD0E009A1D14 /* BSGoodsCell.h */,
+				5A64FB0E2060FD0E009A1D14 /* BSGoodsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A43BE992060A52B00ADDD31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FAFE2060E95E009A1D14 /* BaseClass */,
+				5A64FAF22060D764009A1D14 /* BSGoodsViewModel.h */,
+				5A64FAF32060D764009A1D14 /* BSGoodsViewModel.m */,
+				5A64FB1020610042009A1D14 /* BSGoodsCellViewModel.h */,
+				5A64FB1120610042009A1D14 /* BSGoodsCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A43BE9A2060A52B00ADDD31 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5A43BE9B2060A55500ADDD31 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5A43BEA42060A88E00ADDD31 /* GlobalMacro.pch */,
+				5A43BE9C2060A55500ADDD31 /* AppDelegate.h */,
+				5A43BE9D2060A55500ADDD31 /* AppDelegate.m */,
+				5A43BE9E2060A55500ADDD31 /* main.m */,
+				5A7634F42062035A00297609 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		5A64FAF72060E950009A1D14 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FAF82060E950009A1D14 /* BSNavigationController.h */,
+				5A64FAF92060E950009A1D14 /* BSNavigationController.m */,
+				5A64FAFA2060E950009A1D14 /* BSViewController.h */,
+				5A64FAFB2060E950009A1D14 /* BSViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5A64FAFE2060E95E009A1D14 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5A7634F32062003000297609 /* BSViewModelServices.h */,
+				5A64FAFF2060E95E009A1D14 /* BSViewModel.h */,
+				5A64FB002060E95E009A1D14 /* BSViewModel.m */,
+				5A7634F02061EA1D00297609 /* BSTableViewModel.h */,
+				5A7634F12061EA1D00297609 /* BSTableViewModel.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5A64FB022060E965009A1D14 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5A64FB032060E96C009A1D14 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FB072060F1D3009A1D14 /* BSModel.h */,
+				5A64FB082060F1D3009A1D14 /* BSModel.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5A64FB042060EE45009A1D14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A64FB052060EE4D009A1D14 /* CategoryAllGoods */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B93431F304DDA9440DC4C2BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C722B66D72494A8E096F1B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E36CC4128B80FE0D585E204 /* Pods-MVVM_RAC_TableView_Demo.debug.xcconfig */,
+				7ED5A1CB886F1456033327AE /* Pods-MVVM_RAC_TableView_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A43BE6D2060A43000ADDD31 /* MVVM_RAC_TableView_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A43BE8F2060A43000ADDD31 /* Build configuration list for PBXNativeTarget "MVVM_RAC_TableView_Demo" */;
+			buildPhases = (
+				8C225E64DDAA48CF9C4B69CC /* [CP] Check Pods Manifest.lock */,
+				5A43BE6A2060A43000ADDD31 /* Sources */,
+				5A43BE6B2060A43000ADDD31 /* Frameworks */,
+				5A43BE6C2060A43000ADDD31 /* Resources */,
+				651645995972F83E0880093A /* [CP] Embed Pods Frameworks */,
+				903942E885AAB150EBA00630 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVM_RAC_TableView_Demo;
+			productName = MVVM_ShoppingCar_Demo;
+			productReference = 5A43BE6E2060A43000ADDD31 /* MVVM_RAC_TableView_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A43BE852060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A43BE922060A43000ADDD31 /* Build configuration list for PBXNativeTarget "MVVM_RAC_TableView_DemoTests" */;
+			buildPhases = (
+				5A43BE822060A43000ADDD31 /* Sources */,
+				5A43BE832060A43000ADDD31 /* Frameworks */,
+				5A43BE842060A43000ADDD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A43BE882060A43000ADDD31 /* PBXTargetDependency */,
+			);
+			name = MVVM_RAC_TableView_DemoTests;
+			productName = MVVM_ShoppingCar_DemoTests;
+			productReference = 5A43BE862060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A43BE662060A43000ADDD31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZTL_Sui;
+				TargetAttributes = {
+					5A43BE6D2060A43000ADDD31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A43BE852060A43000ADDD31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A43BE6D2060A43000ADDD31;
+					};
+				};
+			};
+			buildConfigurationList = 5A43BE692060A43000ADDD31 /* Build configuration list for PBXProject "MVVM_RAC_TableView_Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A43BE652060A43000ADDD31;
+			productRefGroup = 5A43BE6F2060A43000ADDD31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A43BE6D2060A43000ADDD31 /* MVVM_RAC_TableView_Demo */,
+				5A43BE852060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A43BE6C2060A43000ADDD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7634F52062035A00297609 /* Info.plist in Resources */,
+				5A43BE7E2060A43000ADDD31 /* LaunchScreen.storyboard in Resources */,
+				5A64FB062060EE4D009A1D14 /* CategoryAllGoods in Resources */,
+				5A43BE7B2060A43000ADDD31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43BE842060A43000ADDD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		651645995972F83E0880093A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM_RAC_TableView_Demo/Pods-MVVM_RAC_TableView_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C225E64DDAA48CF9C4B69CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM_RAC_TableView_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903942E885AAB150EBA00630 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM_RAC_TableView_Demo/Pods-MVVM_RAC_TableView_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A43BE6A2060A43000ADDD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A64FAFD2060E951009A1D14 /* BSViewController.m in Sources */,
+				5A64FB0F2060FD0E009A1D14 /* BSGoodsCell.m in Sources */,
+				5A7634F22061EA1D00297609 /* BSTableViewModel.m in Sources */,
+				5A64FB0C2060F24C009A1D14 /* BSGoodsModel.m in Sources */,
+				5A43BEA02060A55500ADDD31 /* main.m in Sources */,
+				5A64FB092060F1D3009A1D14 /* BSModel.m in Sources */,
+				5A43BE9F2060A55500ADDD31 /* AppDelegate.m in Sources */,
+				5A64FAFC2060E951009A1D14 /* BSNavigationController.m in Sources */,
+				5A64FB012060E95E009A1D14 /* BSViewModel.m in Sources */,
+				5A43BEA32060A58600ADDD31 /* BSGoodsViewController.m in Sources */,
+				5A64FAF42060D764009A1D14 /* BSGoodsViewModel.m in Sources */,
+				5A64FB1220610042009A1D14 /* BSGoodsCellViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43BE822060A43000ADDD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A43BE8B2060A43000ADDD31 /* MVVM_RAC_TableView_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A43BE882060A43000ADDD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A43BE6D2060A43000ADDD31 /* MVVM_RAC_TableView_Demo */;
+			targetProxy = 5A43BE872060A43000ADDD31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A43BE7C2060A43000ADDD31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A43BE7D2060A43000ADDD31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A43BE8D2060A43000ADDD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A43BE8E2060A43000ADDD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A43BE902060A43000ADDD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E36CC4128B80FE0D585E204 /* Pods-MVVM_RAC_TableView_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86VCHY98R9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM_RAC_TableView_Demo/Others/GlobalMacro.pch";
+				INFOPLIST_FILE = MVVM_RAC_TableView_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztllabelheight.-MVVM-RAC-TableView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A43BE912060A43000ADDD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED5A1CB886F1456033327AE /* Pods-MVVM_RAC_TableView_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86VCHY98R9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM_RAC_TableView_Demo/Others/GlobalMacro.pch";
+				INFOPLIST_FILE = MVVM_RAC_TableView_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztllabelheight.-MVVM-RAC-TableView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A43BE932060A43000ADDD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86VCHY98R9;
+				INFOPLIST_FILE = MVVM_ShoppingCar_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztllabelheight.MVVM-ShoppingCar-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_RAC_TableView_Demo.app/MVVM_RAC_TableView_Demo";
+			};
+			name = Debug;
+		};
+		5A43BE942060A43000ADDD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86VCHY98R9;
+				INFOPLIST_FILE = MVVM_ShoppingCar_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztllabelheight.MVVM-ShoppingCar-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_RAC_TableView_Demo.app/MVVM_RAC_TableView_Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A43BE692060A43000ADDD31 /* Build configuration list for PBXProject "MVVM_RAC_TableView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43BE8D2060A43000ADDD31 /* Debug */,
+				5A43BE8E2060A43000ADDD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A43BE8F2060A43000ADDD31 /* Build configuration list for PBXNativeTarget "MVVM_RAC_TableView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43BE902060A43000ADDD31 /* Debug */,
+				5A43BE912060A43000ADDD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A43BE922060A43000ADDD31 /* Build configuration list for PBXNativeTarget "MVVM_RAC_TableView_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43BE932060A43000ADDD31 /* Debug */,
+				5A43BE942060A43000ADDD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A43BE662060A43000ADDD31 /* Project object */;
+}
